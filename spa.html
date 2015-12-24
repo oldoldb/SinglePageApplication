@@ -1,21 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
-    <title>SPA Chapter 5-6</title>
+<!doctype html>
+<!--
+  spa.html
+  spa browser document
+-->
 
+<html>
+<head>
+    <!-- ie9+ rendering support for latest standards -->
+    <meta http-equiv="Content-Type" content="text/html;
+    charset=ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>SPA Chapters 5-6</title>
+
+    <!-- third-party stylesheets -->
+
+    <!-- our stylesheets -->
     <link rel="stylesheet" href="css/spa.css" type="text/css"/>
     <link rel="stylesheet" href="css/spa.shell.css" type="text/css"/>
     <link rel="stylesheet" href="css/spa.chat.css" type="text/css"/>
     <link rel="stylesheet" href="css/spa.avtr.css" type="text/css"/>
 
+    <!-- third-party javascript -->
     <script src="js/jq/taffy.js"></script>
     <script src="js/jq/jquery-1.11.3.js"></script>
     <script src="js/jq/jquery.uriAnchor.js"></script>
     <script src="js/jq/jquery.event.gevent.js"></script>
     <script src="js/jq/jquery.event.ue.js"></script>
 
+    <!-- our javascript -->
     <script src="js/spa.js"></script>
     <script src="js/spa.util.js"></script>
     <script src="js/spa.data.js"></script>
@@ -25,12 +37,12 @@
     <script src="js/spa.shell.js"></script>
     <script src="js/spa.chat.js"></script>
     <script src="js/spa.avtr.js"></script>
-
     <script>
-        $(function() {
+        $(function () {
             spa.initModule($('#spa'));
         });
     </script>
+
 </head>
 <body>
 <div id="spa"></div>

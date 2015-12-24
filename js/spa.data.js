@@ -1,15 +1,16 @@
-/**
- * Created by yajiex on 12/24/2015.
+/*
+ * spa.data.js
+ * Data module
  */
 
-/*jslint        browser : true,     continue : true,
- devel  : true, indent : 2,          maxerr : 50,
- newcap : true,  nomen : true,     plusplus : true,
- regexp : true, sloppy : true,         vars : false,
- white : true
+/*jslint         browser : true, continue : true,
+ devel  : true, indent  : 2,    maxerr   : 50,
+ newcap : true, nomen   : true, plusplus : true,
+ regexp : true, sloppy  : true, vars     : false,
+ white  : true
  */
 /*global $, spa */
 
-spa.data = (function() {
+spa.data = (function () {
     return {};
 }());
