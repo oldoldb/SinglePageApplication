@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606e45e8-45e2-4fba-a29d-194a07c1a8b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/spa.avtr.css" afterPath="$PROJECT_DIR$/css/spa.avtr.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/spa.chat.css" afterPath="$PROJECT_DIR$/css/spa.chat.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/spa.css" afterPath="$PROJECT_DIR$/css/spa.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/spa.shell.css" afterPath="$PROJECT_DIR$/css/spa.shell.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.avtr.js" afterPath="$PROJECT_DIR$/js/spa.avtr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.chat.js" afterPath="$PROJECT_DIR$/js/spa.chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.data.js" afterPath="$PROJECT_DIR$/js/spa.data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.fake.js" afterPath="$PROJECT_DIR$/js/spa.fake.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.js" afterPath="$PROJECT_DIR$/js/spa.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.model.js" afterPath="$PROJECT_DIR$/js/spa.model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.shell.js" afterPath="$PROJECT_DIR$/js/spa.shell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.util.js" afterPath="$PROJECT_DIR$/js/spa.util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.util_b.js" afterPath="$PROJECT_DIR$/js/spa.util_b.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spa.html" afterPath="$PROJECT_DIR$/spa.html" />
     </list>
     <ignored path="SinglePageApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spa.fake.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/spa.fake.js">
+      <file leaf-file-name="spa.data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/spa.data.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,12 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spa.data.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/spa.data.js">
+      <file leaf-file-name="spa.model.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/spa.model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.68976897">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spa.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spa.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48961937">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state vertical-scroll-proportion="-15.607142">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/js/spa.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -179,20 +171,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/layout.html" />
-        <option value="$PROJECT_DIR$/spa.html" />
         <option value="$PROJECT_DIR$/js/spa.util_b.js" />
         <option value="$PROJECT_DIR$/js/spa.util.js" />
         <option value="$PROJECT_DIR$/js/spa.shell.js" />
-        <option value="$PROJECT_DIR$/js/spa.model.js" />
-        <option value="$PROJECT_DIR$/js/spa.js" />
         <option value="$PROJECT_DIR$/js/spa.fake.js" />
-        <option value="$PROJECT_DIR$/js/spa.data.js" />
         <option value="$PROJECT_DIR$/js/spa.chat.js" />
         <option value="$PROJECT_DIR$/js/spa.avtr.js" />
         <option value="$PROJECT_DIR$/css/spa.shell.css" />
         <option value="$PROJECT_DIR$/css/spa.css" />
         <option value="$PROJECT_DIR$/css/spa.chat.css" />
         <option value="$PROJECT_DIR$/css/spa.avtr.css" />
+        <option value="$PROJECT_DIR$/spa.html" />
+        <option value="$PROJECT_DIR$/js/spa.js" />
+        <option value="$PROJECT_DIR$/js/spa.data.js" />
+        <option value="$PROJECT_DIR$/js/spa.model.js" />
       </list>
     </option>
   </component>
@@ -390,9 +382,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.50416666" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
@@ -455,24 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/spa.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75862">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/spa.fake.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -480,14 +454,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spa.data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,9 +530,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48961937">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state vertical-scroll-proportion="-15.607142">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/spa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/spa.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/spa.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68976897">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
