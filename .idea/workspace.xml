@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606e45e8-45e2-4fba-a29d-194a07c1a8b5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/spa.shell.css" afterPath="$PROJECT_DIR$/css/spa.shell.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/spa.css" afterPath="$PROJECT_DIR$/css/spa.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.chat.js" afterPath="$PROJECT_DIR$/js/spa.chat.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spa.shell.js" afterPath="$PROJECT_DIR$/js/spa.shell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spa.html" afterPath="$PROJECT_DIR$/spa.html" />
     </list>
     <ignored path="SinglePageApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="spa.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/spa.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.535714">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state vertical-scroll-proportion="-12.892858">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -57,15 +55,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spa.shell.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spa.shell.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/spa.shell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6048527">
-              <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+            <state vertical-scroll-proportion="-16.62069">
+              <caret line="163" column="37" selection-start-line="163" selection-start-column="37" selection-end-line="163" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1450933961780" expanded="true" signature="513:712" placeholder="..." />
-                <marker date="1450933961780" expanded="true" signature="757:898" placeholder="..." />
+                <marker date="1450934861552" expanded="true" signature="513:706" placeholder="..." />
+                <marker date="1450934861552" expanded="true" signature="751:888" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -81,18 +79,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spa.chat.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spa.chat.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/spa.chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.413794">
-              <caret line="95" column="65" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.6585789">
+              <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1450933258465" expanded="true" signature="425:1008" placeholder="..." />
-                <marker date="1450933258465" expanded="true" signature="470:658" placeholder="..." />
-                <marker date="1450933258465" expanded="true" signature="582:634" placeholder="..." />
-                <marker date="1450933258465" expanded="true" signature="758:985" placeholder="..." />
-                <marker date="1450933258465" expanded="true" signature="855:961" placeholder="..." />
+                <marker date="1450935204310" expanded="true" signature="425:973" placeholder="..." />
+                <marker date="1450935204310" expanded="true" signature="469:644" placeholder="..." />
+                <marker date="1450935204310" expanded="true" signature="577:621" placeholder="..." />
+                <marker date="1450935204310" expanded="true" signature="742:950" placeholder="..." />
+                <marker date="1450935204310" expanded="true" signature="835:927" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -152,11 +150,11 @@
         <option value="$PROJECT_DIR$/js/spa.model.js" />
         <option value="$PROJECT_DIR$/spa.html" />
         <option value="$PROJECT_DIR$/css/spa.chat.css" />
-        <option value="$PROJECT_DIR$/css/spa.css" />
         <option value="$PROJECT_DIR$/css/spa.shell.css" />
-        <option value="$PROJECT_DIR$/js/spa.chat.js" />
         <option value="$PROJECT_DIR$/js/spa.util.js" />
         <option value="$PROJECT_DIR$/js/spa.shell.js" />
+        <option value="$PROJECT_DIR$/css/spa.css" />
+        <option value="$PROJECT_DIR$/js/spa.chat.js" />
       </list>
     </option>
   </component>
@@ -398,34 +396,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/spa.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.535714">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/spa.shell.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.107142">
           <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/spa.chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.413794">
-          <caret line="95" column="65" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="65" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1450933258465" expanded="true" signature="425:1008" placeholder="..." />
-            <marker date="1450933258465" expanded="true" signature="470:658" placeholder="..." />
-            <marker date="1450933258465" expanded="true" signature="582:634" placeholder="..." />
-            <marker date="1450933258465" expanded="true" signature="758:985" placeholder="..." />
-            <marker date="1450933258465" expanded="true" signature="855:961" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,12 +432,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/spa.shell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6048527">
-          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+        <state vertical-scroll-proportion="-16.62069">
+          <caret line="163" column="37" selection-start-line="163" selection-start-column="37" selection-end-line="163" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1450933961780" expanded="true" signature="513:712" placeholder="..." />
-            <marker date="1450933961780" expanded="true" signature="757:898" placeholder="..." />
+            <marker date="1450934861552" expanded="true" signature="513:706" placeholder="..." />
+            <marker date="1450934861552" expanded="true" signature="751:888" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/spa.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.892858">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/spa.chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6585789">
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1450935204310" expanded="true" signature="425:973" placeholder="..." />
+            <marker date="1450935204310" expanded="true" signature="469:644" placeholder="..." />
+            <marker date="1450935204310" expanded="true" signature="577:621" placeholder="..." />
+            <marker date="1450935204310" expanded="true" signature="742:950" placeholder="..." />
+            <marker date="1450935204310" expanded="true" signature="835:927" placeholder="..." />
           </folding>
         </state>
       </provider>

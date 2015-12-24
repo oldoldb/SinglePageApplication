@@ -17,24 +17,27 @@ spa.shell = (function () {
             },
             main_html: String()
             + '<div class="spa-shell-head">'
-            +   '<div class="spa-shell-head-logo"></div>'
-            +   '<div class="spa-shell-head-acct"></div>'
-            +   '<div class="spa-shell-head-search"></div>'
+            + '<div class="spa-shell-head-logo"></div>'
+            + '<div class="spa-shell-head-acct"></div>'
+            + '<div class="spa-shell-head-search"></div>'
             + '</div>'
             + '<div class="spa-shell-main">'
-            +   '<div class="spa-shell-main-nav"></div>'
-            +   '<div class="spa-shell-main-content"></div>'
+            + '<div class="spa-shell-main-nav"></div>'
+            + '<div class="spa-shell-main-content"></div>'
             + '</div>'
             + '<div class="spa-shell-foot"></div>'
             + '<div class="spa-shell-chat"></div>'
-            + '<div class="spa-shell-modal"></div>'
+            + '<div class="spa-shell-modal"></div>',
+            resize_interval: 200
         },
         stateMap = {
-            anchor_map: {}
+            $container: undefined,
+            anchor_map: {},
+            resize_idto: undefined
         },
         jqueryMap = {},
         copyAnchorMap, setJqueryMap,
-        changeAnchorPart, onHashchange,
+        changeAnchorPart, onHashchange, onResize,
         setChatAnchor, initModule;
 
 
@@ -114,8 +117,8 @@ spa.shell = (function () {
             }
         }
 
-        if(!is_ok) {
-            if(anchor_map_previous) {
+        if (!is_ok) {
+            if (anchor_map_previous) {
                 $.uriAnchor.setAnchor(anchor_map_previous, null, true);
                 stateMap.anchor_map = anchor_map_previous;
             } else {
@@ -126,7 +129,18 @@ spa.shell = (function () {
         return false;
     };
 
-    setChatAnchor = function(position_type) {
+    onResize = function () {
+        if (stateMap.resize_idto) {
+            return true;
+        }
+        spa.chat.handleResize();
+        stateMap.resize_idto = setTimeout(function () {
+            stateMap.resize_idto = undefined;
+        }, configMap.resize_interval);
+        return true;
+    };
+
+    setChatAnchor = function (position_type) {
         return changeAnchorPart({chat: position_type});
     };
 
@@ -147,6 +161,7 @@ spa.shell = (function () {
         spa.chat.initModule(jqueryMap.$container);
 
         $(window)
+            .bind('resize', onResize)
             .bind('hashchange', onHashchange)
             .trigger('hashchange');
     };
